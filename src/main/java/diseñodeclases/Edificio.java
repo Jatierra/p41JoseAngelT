@@ -4,11 +4,13 @@
  */
 package diseñodeclases;
 
+import java.time.LocalDate;
+
 /**
  *
  * @author jatierra
  */
-public class Prueba {
+public class Edificio {
 
     /**
      * @param args the command line arguments
@@ -16,6 +18,11 @@ public class Prueba {
     public static void main(String[] args) {
         
         System.out.println(Elevador.generadorNumeroSerie());
+        
+        elevador e1 =  new Elevador(numeroSerie, , 500, LocalDate.MIN, LocalDate.MIN, 0, estadoAscensor);
+        elevador e2 = new Elevador(numeroSerie, 0, 0, LocalDate.MIN, LocalDate.MIN, 0, estadoAscensor)
+
+              
     }
     
 }
